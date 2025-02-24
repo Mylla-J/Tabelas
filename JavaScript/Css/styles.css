@@ -1,0 +1,133 @@
+.chau-philomene-one-regular {
+    font-family: "Chau Philomene One", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .chau-philomene-one-regular-italic {
+    font-family: "Chau Philomene One", serif;
+    font-weight: 700px;
+    font-style: italic;
+  }
+  
+body {
+    background-color: #030d22;
+    color: white;
+    background-image: url(../img/pexels-johann-van-der-linde-207143724-12302320.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+footer {
+    background-color: rgb(1, 9, 26);
+    color: #ffdd57;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    bottom: 0;
+}
+
+nav {
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: rgba(1, 9, 26);
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #ffdd57;
+    font-weight: bold;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #ff5733;
+    text-shadow: 0 0 10px #ff5733;
+}
+caption {
+    font-family: "Chau Philomene One", serif;
+    font-size: 26xp;
+    margin-top: 50px;
+}
+table {
+    width: 55%;
+    margin: auto;
+    border-collapse: collapse;
+    background-color: rgba(10, 20, 40, 0.9);
+    color: white;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+th, td {
+    border: 2px solid #ffcc66;
+    padding: 12px;
+    text-align: center;
+    font-size: 16px;
+}
+
+th {
+    background-color: rgba(15, 25, 60, 0.9);
+    color: #ffcc66;
+    text-shadow: 0 0 5px #ffcc66;
+}
+
+caption {
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffcc66;
+    text-shadow: 0 0 5px #ffcc66;
+    margin-bottom: 10px;
+}
+
+tfoot {
+    background-color: rgba(15, 25, 60, 0.9);
+    font-weight: bold;
+    color: #ffcc66;
+}
+
+form {
+    max-width: 350px;
+    margin: auto;
+    padding: 20px;
+    background: rgba(5, 10, 40, 0.95);
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.5);
+}
+h2{
+    text-align: center;
+}
+
+input {
+    width: 90%;
+    padding: 5px;
+    margin: 15px 0;
+    border: 1px solid #ffdd57;
+    border-radius: 20px;
+    background-color: #060d23;
+    color: white;
+    font-size: 16px;
+}
+
+button {
+    background: linear-gradient(90deg, #170568, #3407b1ab);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    font-size: 16px;
+    text-shadow: 0 0 5px white;
+    transition: transform 0.2s;
+}
+
+button:hover {
+    background: linear-gradient(90deg, #0b76da, #3f81e4);
+    transform: scale(1.05);
+}

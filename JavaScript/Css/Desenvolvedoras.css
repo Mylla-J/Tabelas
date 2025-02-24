@@ -1,0 +1,164 @@
+.chau-philomene-one-regular {
+    font-family: "Chau Philomene One", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .chau-philomene-one-regular-italic {
+    font-family: "Chau Philomene One", serif;
+    font-weight: 700px;
+    font-style: italic;
+  }
+
+body {
+    background-color: #030d22; 
+    color: white;
+    background-image: url(../img/pexels-johann-van-der-linde-207143724-12302320.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: #030d22;
+    color: #fff;
+    padding: 15px 40px;
+    margin-bottom: 25px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    font-family: "Chau Philomene One", serif;
+}
+
+nav {
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: rgba(1, 9, 26, 0.8);
+}
+
+nav a {
+    margin: 0 20px;
+    text-decoration: none;
+    color: #ffdd57; /* Cor dourada */
+    font-weight: bold;
+    font-size: 18px;
+    transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+nav a:hover {
+    color: #ff5733; /* Cor laranja no hover */
+    text-shadow: 0 0 10px #ff5733; /* Brilho no texto */
+}
+
+/* Seção das Desenvolvedoras */
+main {
+    padding: 50px 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+section.developer {
+    background: rgba(5, 10, 40, 0.9); /* Fundo escuro semi-transparente */
+    border-radius: 15px;
+    padding: 30px;
+    margin-bottom: 40px;
+    width: 300px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+section.developer:hover {
+    transform: translateY(-10px); /* Efeito de flutuar */
+    box-shadow: 0 10px 30px rgba(255, 255, 255, 0.5); /* Sombra mais intensa ao passar o mouse */
+}
+
+section.developer img {
+    border-radius: 50%;
+    width: 170px;
+    height: 170px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
+    transition: transform 0.3s ease;
+}
+
+section.developer img:hover {
+    transform: scale(0); /* Efeito de zoom na imagem */
+}
+
+section.developer h2 {
+    font-family: 'Racing Sans One', sans-serif;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    color: #ffdd57; /* Cor dourada */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
+}
+
+section.developer p {
+    font-size: 1.1rem;
+    color: #ddd;
+    margin: 10px 0;
+}
+
+/* Rodapé */
+footer {
+    background-color: rgb(1, 9, 26);
+    color: #ffdd57;
+    text-align: center;
+    padding: 15px;
+    position: relative;
+}
+
+footer p {
+    margin: 10px 0;
+    font-size: 1rem;
+}
+
+/* Efeito de estrelas no fundo */
+body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('https://www.transparenttextures.com/patterns/stardust.png') repeat;
+    opacity: 0.2;
+    pointer-events: none;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    main {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    section.developer {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+    header {
+        padding: 40px 0;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    nav a {
+        font-size: 16px;
+    }
+}
+
+
+
